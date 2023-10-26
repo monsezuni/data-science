@@ -182,5 +182,5 @@ def MAD(n):
     '''
     median = mediana(n)
     desv_absoluta = [abs(n - median) for x in n]
-    mad = mediana(desv_absoluta)
-    return mad
+    mda = mediana(desv_absoluta)
+    return mda
